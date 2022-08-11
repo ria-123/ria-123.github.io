@@ -1,0 +1,184 @@
+* { 
+   margin: 0px;
+   padding: 0px;
+}
+
+/*Body Css*/
+body {
+ background-color: #2c786c; 
+}
+
+/*Nav Bar*/
+ul {
+  list-style-type:none;
+  background-color:#004445;
+  overflow:hidden;
+  padding:1em;
+}
+
+li {
+  display:inline;
+}
+
+li a {
+  text-decoration:none;
+  color:#faf5e4;
+  font-size:1.3em;
+  padding:1em;
+}
+
+li a:hover {
+  background-color:#f8b400;
+}
+
+/*Headings*/
+h1{
+  color:#f8b400;
+  text-align:center;
+  padding-top:20px;
+  font-size:45px;
+  font-family:Garamond;
+}
+
+h2{
+  margin-top:10px;
+  text-align:center;
+  font-size:35px;
+  color:#004445;
+  font-family:Garamond;
+}
+
+h3{
+  padding-top:25px;
+  text-align:center;
+  font-size:30px;
+  color:#faf5e4;
+  font-family:Garamond;
+}
+
+h4{
+  text-align:center;
+  padding-top:15px;
+  font-size:27px;
+  color:#f8b400;
+  font-family:Garamond;
+}
+
+/*Paragraph formatting*/
+.textt{
+  text-align: center;
+  color:#faf5e4;
+  padding-top:10px;
+  font-size:25px;
+  padding-bottom:10px;
+  font-family:Garamond;
+}
+
+.text1{
+  text-align: center;
+  color:#004445;
+  padding-top:10px;
+  font-size:25px;
+  padding-bottom:10px;
+  font-family:Garamond;
+}
+
+.text3{
+  text-align: center;
+  color:#004445;
+  font-size:20px;
+  padding:10px;
+  font-family:Garamond;
+}
+
+/*Flexbox images and subtitles*/
+.images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top:30px;
+  margin-left: 7%; 
+  margin-right: auto;
+}
+
+.flexItem{
+  flex-basis: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width:850px){
+  .images{
+    flex-wrap:wrap;
+  }
+}
+
+#image1{
+  width:80%;
+  height:80%; 
+}
+
+#image2{
+  width:80%;
+  height:80%;
+}
+
+#image3{
+  width:80%;
+  height:80%;
+}
+
+.imageText{
+  text-align:center;
+	margin-right: 15%;
+  color:#faf5e4;
+  padding-top:10px;
+  font-size:25px;
+  font-family:Garamond;
+}
+
+/*Div boxes*/
+.box{
+  background-color:#f8b400;
+  margin:20px;
+  padding-bottom:20px;
+  font-family:Garamond;
+}
+
+/*Text for about page*/
+.text2{
+  text-align: center;
+  color:#004445;
+  padding-top:10px;
+  font-size:20px;
+  font-family:Garamond;
+}
+
+/*Take action first section styling*/
+.longTerm{
+  color:#004445;
+}
+
+.longTermBox{
+  background-color:#faf5e4;
+  margin-top:20px;
+  padding-bottom:20px;
+  font-family:Garamond;
+}
+
+.shortTermBox{
+  padding-bottom:15px;
+  font-family:Garamond;
+}
+
+/*Main message Home Page*/
+.message{
+  background-color:#004445;
+  padding:10px;
+  text-align:center;
+  font-size:20px;
+  color:#faf5e4;
+  margin-bottom:10px;
+  font-family:Garamond;
+}
